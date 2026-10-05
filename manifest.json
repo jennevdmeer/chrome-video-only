@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Video only",
+    "version": "1.0",
+    "description": "Strips the page down to its first video, still playing.",
+    "action": {
+        "default_title": "Video only"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
